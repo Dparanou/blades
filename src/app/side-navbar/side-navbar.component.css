@@ -1,0 +1,38 @@
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 5vh;
+}
+mat-sidenav {
+    background-color: #222222;
+    height:100%;
+}
+
+.menu {
+    color: #e0e0e0;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+    width: 30px;
+    /*
+    background-color: gray;
+    border-radius: 50%;
+    */
+}
+
+.menu :hover {
+    background-color: #222222;
+}
+
+.otherLogos {
+    color: #bdbdbd;
+}
+
+hr {
+    color: #3d3d3d;
+    opacity: 0.3;
+    left : 0;
+}

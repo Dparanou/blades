@@ -1,0 +1,97 @@
+.buttons {
+    position: relative;
+    bottom: 8.5em;
+    color: white;
+}
+
+button {
+    height: 50px;
+}
+
+.header-icon{
+    margin-bottom: 40%;
+}
+
+.header-span{
+    position: absolute;
+    display: list-item;
+    top: 25px;
+    list-style: none;
+    font-size: 12px;
+    width: 30px;
+    left: 15px;
+    color: white;
+}
+
+.content {
+    height: 66vh;
+    position: relative;
+}
+
+p {
+    color: #dcdcdc;
+    position: absolute;
+    top: 18%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    height: 3%;
+}
+
+img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.hd-title {
+    width: 95%;
+    height: 7%;
+    position: absolute;
+    display: -webkit-box;
+    list-style-type: none;
+    margin: auto;
+    right: 0;
+    bottom: 96%;
+    padding: 0;
+}
+
+.hd-li{
+    padding: 1.4%;
+    color: rgba(0,0,0,.54);
+    font-weight: 400;
+    font-size: medium;
+}
+
+hr {
+    position: relative;
+    top: 2em;
+    width: 95%;
+    opacity: 0.5;
+}
+
+.spec-subs {
+    position: absolute;
+    top: 7%;
+    left: 8%;
+}
+
+.sub-item-list {
+    display: contents;
+    list-style: none;
+}
+
+.sub-item-li {
+    margin: 5% 0 5% 0;
+}
+
+.sub-item-span {
+    right: 5em;
+    position: relative;
+    padding-left: 4em;
+}

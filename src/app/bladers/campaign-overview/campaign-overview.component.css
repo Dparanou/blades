@@ -1,0 +1,60 @@
+.buttons {
+    position: relative;
+    bottom: 4em;
+    color: white;
+}
+
+.btnSpan {
+    position: absolute;
+    display: list-item;
+    top: 70%;
+    list-style: none;
+    font-size: 85%;
+    width: 55%;
+    left: 25%;
+    color: white;
+}
+
+i {
+    left: 10%;
+    position: relative;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.header {
+    height: 10%;
+}
+
+hr {
+    opacity: 0.5;
+    margin: 0;
+    top: 70%;
+    position: relative;
+}
+
+.campaign-text {
+    position: absolute;
+    float: left;
+    /* right: 35%; */
+    left: 3%;
+    top: 1em;
+}
+
+.campaign-list {
+    position: absolute;
+    float: right;
+    right: 35%;
+    top: 0.5em;
+}
+
+button {
+    padding: 0;
+    position: relative;
+    bottom: .1em;
+}

@@ -1,0 +1,47 @@
+.buttons {
+    position: relative;
+    bottom: 8.5em;
+    color: white;
+}
+
+span {
+    position: absolute;
+    display: list-item;
+    top: 70%;
+    list-style: none;
+    font-size: 85%;
+    width: 55%;
+    left: 25%;
+    color: white;
+}
+
+.dis {
+    color: #565656 !important;
+}
+
+.content {
+    height: 96%;
+    position: relative;
+    bottom: 2em;
+}
+
+p{
+    color: #dcdcdc;
+    position: absolute;
+    top: 18%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    height: 3%;
+}
+
+img {
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+}

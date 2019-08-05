@@ -1,0 +1,90 @@
+.buttons {
+    position: relative;
+    bottom: 8.5em;
+    color: white;
+}
+
+.btnSpan {
+    position: absolute;
+    display: list-item;
+    top: 70%;
+    list-style: none;
+    font-size: 85%;
+    width: 55%;
+    left: 25%;
+    color: white;
+}
+
+.content {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+table{
+    width: 98%;
+    border-collapse: collapse;
+}
+
+thead {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 90%;
+}
+
+tr {
+    position: relative;
+    height: 4em;
+    display: block;
+}
+
+th {
+    position: inherit;
+    padding-left: 4%;
+    font-weight: lighter;
+    font-size: 14px;
+    opacity: .5;
+    top: 2em;
+    display: inline;
+}
+
+tbody {
+    position: absolute;
+    top: 10%;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 90%;
+}
+
+.hd{
+    width: 0;
+    bottom: 1%;
+    position: absolute;
+    margin-left: 2%;
+}
+
+.campaign-list {
+    display: flex;
+}
+
+.campaign-list :hover {
+    background-color: #e7e7e7;
+}
+
+.tr-btn {
+
+    width: 95%;
+    text-align: inherit !important;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+td {
+    
+}

@@ -1,0 +1,35 @@
+.content {
+    background-color: white;
+    width: 25em;
+    height: 100%;
+    position: absolute;
+}
+
+button {
+    width: 90%;
+    height: 7em;
+    padding: 0;
+    margin: auto;
+    left: 1.5em;
+    right: 0;
+    position: relative;
+
+}
+
+p {
+    position: relative;
+    right: 8em;
+    top: 1em;
+    font-weight: bold;
+}
+
+i {
+    position: relative;
+    left: 40%;
+    bottom: 1em;
+}
+
+hr {
+    width: 85%;
+    opacity: 0.5;
+}

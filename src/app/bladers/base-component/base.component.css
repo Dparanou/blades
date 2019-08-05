@@ -1,0 +1,128 @@
+.wrapper {
+    height: 93vh;
+    overflow: hidden;
+    width: 40vh;
+    border: 1px solid #ccc;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #222222;
+    color: white;
+    height: 9em;
+    display: block;
+    font-size: .9em;
+}
+
+.vertical-hr {
+    border-left: 0 solid hsla(200, 10%, 50%,100);
+    height: 140px;
+    width: 1px;
+    margin: 0;
+    opacity: 0.2;
+    position: absolute;
+    display: block;
+}
+
+.title {
+    position: absolute;
+    margin: 0;
+    top: 10px;
+    left: 10px;
+    font-size: 1.4em;
+}
+
+.descritption {
+    position: absolute;
+    margin: 0;
+    top: 40px;
+    left: 10px;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    color: #999;
+}
+
+.close {
+    left: 84%;
+    position: absolute;
+    top: 0;
+    border-radius: 50%;
+    /*background-color: #474747;*/
+}
+
+.toolbar {
+    background-color: #fafafa;
+    width: 100%;
+    height: 8vh;
+    position: relative;
+    display: block;
+}
+
+.filter {
+    position: absolute;
+    left: 3%;
+    top: 15%;
+}
+
+.filter-picker {
+    position: relative;
+    height: 4em;
+    width: 30vh;
+    font-size: 90%;
+    left: 2%;
+}
+
+.date {
+    position: absolute;
+    right: 2%;
+}
+
+.mat-form-field-infix {
+    padding: 0;
+    position: relative;
+}
+
+.toolbar-hr {
+    position: relative;
+    opacity: 0.5;
+    margin: 0;
+    /* border: 0; */
+    display: block;
+    top: 100%;
+}
+
+.content {
+    position: relative;
+    height: 71vh;
+}
+
+.wrapper2 {
+    height: 93vh;
+    width: 80vh;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.close2  {
+    left: 92%;
+    position: absolute;
+    top: 0;
+}
+
+.wrapper3 {
+    height: 93vh;
+    width: 78em;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.close3 {
+    left: 95%;
+    position: absolute;
+    top: 0;
+}

@@ -1,0 +1,109 @@
+.buttons {
+    position: relative;
+    bottom: 14vh;
+    color: white;
+    width: 40vh;
+    height: 6vh;
+ }
+
+button {
+    height: 5.5vh;
+}
+
+.header-icon{
+    position: relative;
+    bottom: 1vh;
+    width: 3vh;
+    height: 3vh
+}
+
+.header-span{
+    position: absolute;
+    display: list-item;
+    top: 2.5vh;
+    list-style: none;
+    font-size: 1.4vh;
+    width: 5vh;
+    left: 1vh;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
+    width: 37vh;
+    left: 0;
+    right: 0;
+    display: contents;
+}
+
+.delete {
+    background-color: #ddd;
+    width: 6vh;
+    padding: 0;
+}
+
+.list-btn {
+    padding: 0;
+    width: 30vh;
+    top: 20px;
+}
+
+.sub-title {
+    left: 1vh;
+    position: absolute;
+    font-weight: bold;
+    bottom: 2vh;
+    text-align: left;
+    height: 4vh;
+    width: 5vh;
+}
+
+.sub-label {
+    bottom: 2vh;
+    font-size: 1.2vh;
+    position: absolute;
+    left: 7vh;
+    background-color: #e0e0e0;
+    color: #959595;
+    border-radius: 50%;
+}
+
+.sub-updated {
+    letter-spacing: .01em;
+    position: absolute;
+    left: 4%;
+    height: 3vh;
+    font-size: 1.3vh;
+    opacity: 0.5;
+    top: 2vh;
+    text-align: left;
+    width: 5vh;
+}
+
+.sub-num {
+    position: absolute;
+    right: 35px;
+    font-weight: bold;
+    bottom: 15px;
+}
+
+.sub-sub {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    opacity: 0.5;
+}
+
+.sub-arrow {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+}
+
+hr {
+    opacity: 0.5;
+    margin: 0;
+    width: 35vh;
+}

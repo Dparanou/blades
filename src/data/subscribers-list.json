@@ -1,0 +1,48 @@
+[
+  {
+    "id" : 1233,
+    "title" : "Test1",
+    "label": "Advanced",
+    "numOfSubs" : 3,
+    "subscribers" :  [
+      {
+        "phone" : 698043,
+        "firstName" : "Tom",
+        "lastName" : "Lam"
+      },
+      {
+        "phone" : 698220,
+        "firstName" : "Tom",
+        "lastName" : "Br"
+      },
+      {
+        "phone" : 698120,
+        "firstName" : "Zina",
+        "lastName" : "Sor"
+      }
+    ]
+  },
+  {
+    "id" : 1235,
+    "title" : "Test2",
+    "numOfSubs" : 2,
+    "subscribers" :  [
+      {
+        "phone" : 698056,
+        "firstName" : "Lil",
+        "lastName" : "Mai"
+      },
+      {
+        "phone" : 698566,
+        "firstName" : "Luck",
+        "lastName" : "Ord"
+      }
+    ]
+  },
+  {
+    "id" : 1238,
+    "title" : "Test3",
+    "numOfSubs" : 0,
+    "subscribers" : []
+  }
+]

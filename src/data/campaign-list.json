@@ -1,0 +1,26 @@
+[
+  {
+    "submittedDate" : "10/4/19 10:10",
+    "dateSent" : "10/4/19 10:12",
+    "campaign" : "test",
+    "listName" : "Test2",
+    "account" : "Aristotle Uni",
+    "channel" : "SMS",
+    "recipients" : 1,
+    "sendTotal" : 1,
+    "progress" : 100.00,
+    "status" : "Finished"
+  },
+  {
+    "submittedDate" : "10/4/19 10:10",
+    "dateSent" : "10/4/19 10:12",
+    "campaign" : "test1",
+    "listName" : "Test1",
+    "account" : "Aristotle Uni",
+    "channel" : "SMS",
+    "recipients" : 2,
+    "sendTotal" : 2,
+    "progress" : 100.00,
+    "status" : "Finished"
+  }
+]

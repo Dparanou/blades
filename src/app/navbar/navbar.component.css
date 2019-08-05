@@ -1,0 +1,50 @@
+mat-toolbar {
+    background-color: #039be5;
+    color: #ffffff;
+    position: fixed;
+    top:0;
+    width: 100%;
+    margin : 0;
+    left:0;
+    height: 5vh;
+}
+
+.apifonLogoImage {
+    width: 30%;
+    position: relative;
+    left: 5%;
+}
+
+.logoName {
+    position: absolute;
+    left: 3em;
+}
+
+.apifonLogo {
+    width: 50%;
+    position: static;
+    /* right: 47%; */
+    top: 0.2em;
+}
+
+.selected-tab-name {
+    position: fixed;
+    left: 12%;
+}
+.selected-tab {
+    font-size: 0.7em;
+    left: 14em;
+    top: 1%;
+    position: fixed;
+    color: #eee!important;
+    fill: #eee!important;
+    font-weight: 400;
+    opacity: .8;
+}
+
+.material-icons {
+    float: right;
+    right: 1%;
+    position: fixed;
+    top: 1%;
+}

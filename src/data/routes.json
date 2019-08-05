@@ -1,0 +1,55 @@
+[
+  {
+    "path": "subscribers/lists",
+    "component" : "BladerComponent",
+    "data" : {
+      "kind" : "lists"},
+    "children" : [
+      {
+        "path" : "create",
+        "component" : "AddListComponent",
+        "data" : {
+          "kind" : "create"},
+        "children" : [
+          {
+            "path" : "basic",
+            "component" : "BasicListComponent",
+            "data" :
+            {
+              "kind" : "basic"}},
+          {
+            "path" : "advanced",
+            "component" : "AdvancedListComponent",
+            "data" : {
+              "kind" : "advanced" }}
+        ]},
+      {
+        "path" : "details/:id",
+        "component" : "DetailsSubscribersComponent" }
+    ]},
+  {
+    "path" : "subscribers/blocked",
+    "component" : "BladerComponent",
+    "data" : {
+      "kind" : "blocked" }},
+  {
+    "path" : "campaigns/messagin",
+    "component" : "BladerComponent",
+    "data" : {
+      "kind" : "campaigns"},
+    "children" : [
+      {
+        "path" : "overview",
+        "component" : "CampaignOverviewComponent",
+        "children" : [
+        {
+          "path" : "details/:id",
+          "component" : "DetailsSubscribersComponent"}
+      ]}
+    ]},
+  {
+    "path" : "profile/list",
+    "component" : "BladerComponent",
+    "data" : {
+      "kind" : "list"}}
+]

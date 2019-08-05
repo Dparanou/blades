@@ -1,0 +1,99 @@
+.content {
+    height: 100%;
+    width: 100%;
+}
+
+.basic-list {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+.button-list-basic {
+    position: absolute;
+    width: 315px;
+    height: 85px;
+    left: 0;
+    right: 0px;
+    top: 30px;
+    margin: auto;
+}
+
+.list-icon {
+    left: 0;
+    position: absolute;
+    top: 30px;
+}
+
+.basic {
+    position: relative;
+    width: 70px;
+    margin: 0;
+    bottom: 3px;
+    height: 20px;
+}
+
+.basic-disc {
+    position: relative;
+    height: 25px;
+    margin: 0;
+    bottom: 5px;
+    width: 142px;
+    color: rgba(0,0,0,0.54);
+}
+
+.arrow-icon {
+    right: 0;
+    position: absolute;
+    top: 30px;
+}
+
+hr {
+    position: relative;
+    opacity: 0.5;
+    top: 125px;
+    width: 360px;
+}
+
+.advanced-list {
+    position: relative;
+    top: 125px;
+}
+
+.button-list-advanced {
+    position: absolute;
+    width: 315px;
+    height: 85px;
+    left: 0;
+    right: 0px;
+    margin: auto;
+}
+
+.advanced {
+    position: relative;
+    width: 100px;
+    margin: 0;
+    bottom: 3px;
+    height: 20px;
+}
+
+.advanced-disc {
+    position: relative;
+    height: 25px;
+    margin: 0;
+    bottom: 5px;
+    width: 175px;
+    color: rgba(0,0,0,0.54);
+}
+
+.second {
+    top: 220px;
+}
+
+.selected {
+    background-color: #ccc;
+}

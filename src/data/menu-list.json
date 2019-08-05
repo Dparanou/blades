@@ -1,0 +1,64 @@
+[
+    {
+        "name" : "Dashboard",
+        "icon" : "dashboard",
+        "expand" : "false"
+    },
+    {
+        "name": "Subscribers",
+        "icon": "face",
+        "expand" : "false",
+        "children": [
+            {
+                "name": "Lists",
+                "icon": "subject",
+                "parent": "Subscribers"
+            },
+            {
+                "name": "Blocked",
+                "icon":"pan_tool",
+                "parent": "Subscribers"
+            }
+        ]
+    },
+    {
+        "name": "Templates",
+        "icon": "wallpaper",
+        "expand" : "false",
+        "children": [
+            {
+                "name": "Active",
+                "icon": "view_module",
+                "parent": "Templates"
+            },
+            {
+                "name": "Archived",
+                "icon": "archive",
+                "parent": "Templates"
+            }
+        ]
+    },
+    {
+        "name": "Campaigns",
+        "icon": "flag",
+        "expand" : "false",
+        "children": [
+            {
+                "name": "Messaging",
+                "icon": "stay_current_portrait",
+                "parent": "Campaigns"
+            },
+            {
+                "name": "Landing",
+                "icon": "devices",
+                "parent": "Campaigns"
+            }
+        ]
+    },
+    {
+        "name" : "Profile",
+        "icon" : "account_circle",
+        "expand" : "false"
+    }
+
+]
